@@ -1,0 +1,462 @@
+/*WRAPPER*/
+
+.wrapper{
+    width: 960px;
+    height: 4000px;
+    background-image: url(wonder.woman.jpg);
+    margin:auto;
+
+}
+/*NAVBAR*/
+.topone{
+    width: 960px;
+    height: 50px;
+    float:left;
+    position: fixed;
+    top: 0;
+    background-color:black;
+    
+
+}
+
+.topone img{
+    width: 50px;
+    height:50px;
+    margin-left: 10px;
+}
+.toptwo{
+    width: 70%;
+    height: 100px;
+    float:right;
+    
+
+}
+.toptwo a{
+    color: white;
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 23px;
+    
+}
+li{
+    display:inline;
+    margin: 30px;
+
+   
+}
+/*HEADER*/
+.header{
+    width:100%;
+    height:600px;
+    
+}
+.header h1{
+    font-size: 50px;
+    margin-left: 70px;
+    padding:20px;
+}
+.header p{
+    font-size: 30px;
+    margin-left: 60px;
+    color:  #d52d5d;;
+}
+/*PHOTO*/
+.photosbox{
+    width: 100%;
+    height:600px;
+    background-color: black;
+}
+.photosbox img{
+    width:80%;
+    height:500px;
+    margin-left: 100px;
+    margin-top: 90px;
+
+}
+/*INFORMATIONS*/
+.infobox{
+    width: 100%;
+    height: 450px;
+    background-color:black;
+   
+}
+.info{
+     width: 50%;
+    height: 400px;
+    float:left;
+    margin-top: 20px;
+
+}
+.infotwo{
+     width: 50%;
+    height: 400px;
+    float:right;
+    margin-top: 20px;
+}
+.info p{
+    font-size: 20px;
+    font-style:italic;
+    margin-left: 30px;
+    color: white;
+}
+.info h1{
+    font-size: 20px;
+    font-style:italic;
+    margin-left: 30px;
+   color: white;
+}
+.infotwo p{
+    font-size: 20px;
+    font-style:italic;
+    margin-left:35px;
+     color: white;
+}
+.infotwo h1{
+    font-size: 20px;
+    font-style:italic;
+    margin-left: 30px;
+     color: white;
+}
+/*ABOUT PAGE*/
+.about{
+    clear:both;
+     width: 100%;
+    height: 1000px;
+    background-color:  black;
+}
+.about h2{
+    margin-left: 360px;
+    font-size: 30px;
+    font-style:oblique;
+    color: white;
+}
+.about img{
+    width:40%;
+    height: 300px;
+    margin-left:30px;
+    margin-top: 150px;
+   
+}
+.sidetext {
+    width: 50%;
+    height:330px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 150px;
+}
+.sidetext p{
+    font-size: 15px;
+    color: white;
+    margin-top:20px;
+
+}
+.aboutlogo{
+    width:100%;
+    height:100px;
+    background-color:black;
+}
+.aboutlogo img{
+    width: 99px;
+    height:99px;
+}
+/*SERVICES PAGE*/
+.services{
+    width:100%;
+    height:1400px;
+    background-color: #d52d5d;
+    margin-top: -40px;
+   
+}
+.serviceinfo{
+    width:100%;
+    height:100px;
+   
+}
+.serviceinfo p{
+    color: black;
+    font-size: 40px;
+    margin-left: 300px;
+    font-style:italic;
+
+}
+.firstinfo{
+    width:100%;
+    height:300px;
+   
+}
+.secondinfo{
+    width:100%;
+    height:300px;
+  
+}
+.secondinfo{
+    width:100%;
+    height:300px;
+    
+}
+.thirdinfo{
+    width:100%;
+    height:300px;
+    
+}
+.forthinfo{
+    width:100%;
+    height:300px;
+    
+}
+.textone{
+    width:47%;
+    height:290px;
+    float:left;
+    margin-left: 10px;
+
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.one{
+     width:50%;
+    height:290px;
+    float: right;
+   
+}
+.texttwo{
+    width:47%;
+    height:290px;
+    float:left;
+    margin-left:10px;
+
+}
+.two{
+     width:50%;
+    height:290px;
+    float: right;
+}
+.textthree{
+    width:48%;
+    height:290px;
+    float:left;
+    margin-left: 10px;
+
+}
+.three{
+     width:50%;
+    height:290px;
+    float: right;
+}
+.textfour{
+    width:48%;
+    height:290px;
+    float:left;
+    margin-left:10px;
+
+}
+.four{
+     width:50%;
+    height:290px;
+    float: right;
+}
+.one img {
+    width:450px;
+    margin-left: 15px;
+    height:280px;
+}
+.two img{
+    width:450px;
+    margin-left: 30px;
+   margin: 20px;
+
+}
+.three img{
+     width:450px;
+    margin-left: 10px;
+}
+.four img{
+    width: 450px;
+    margin: 10px;
+}
+/*CONTACT PAGE*/
+.contactpage{
+    width:100%;
+    height:500px;
+    background-image: url(wonder.woman.jpg);
+}
+.contactpage h2{
+    font-size:40px;
+    font-style:italic;
+    color: #d52d5d;
+    margin-left: 70px;
+}
+.contactpage img{
+    width: 30px;
+    margin-left: 100px;
+}
+   
+.contactpage p{
+    font-size:15px;
+    margin-left: 100px;
+
+}
+/*FOOTER*/
+.footer{
+    width:100%;
+    height:110px;
+    background-color: black;
+}
+.contact{
+    width:90%;
+    height: 100px;
+    float:left;
+
+}
+.contact p{
+    font-size: 12px;
+    margin-left: 10px;
+    color:white;
+
+}
+.links{
+    width: 10%;
+    height: 100px;
+    float:right;
+}
+.links img{
+    width: 30px;
+    margin-top:10px;
+   
+}
+
+/*SECOND HTML PAGE, CONTACT FORM*/
+.wrappertwo{
+    width: 960px;
+    height: 800px;
+    background-image: url(wonder.woman.jpg);
+    margin: auto;
+}
+/*NAVBAR*/
+.topone{
+    width: 960px;
+    height: 50px;
+    float:left;
+    position: fixed;
+    top: 0;
+    background-color:black;
+}
+
+.topone img{
+    width: 50px;
+    height:50px;
+    margin-left: 10px;
+}
+.toptwo{
+    width: 70%;
+    height: 100px;
+    float:right;
+    
+
+}
+.toptwo a{
+    color: white;
+    list-style-type:none;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+li{
+    display:inline;
+    margin: 30px;
+
+   
+}
+/*HEADER*/ 
+.headertwo{
+  width:99%;
+  height:400px;
+  padding: 40px;
+}
+.headertwo p{
+  color: black;
+  font-size: 40px;
+  padding: 55px;
+  font-style:italic;
+}
+/*CONTACT FORM*/
+input[type=text], select, textarea {
+    width: 98%; 
+    padding: 10px; 
+    border: 1px solid  #d52d5d;;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+}
+input[type=contactus]:hover {
+    background-color: #45a049;
+  }
+  
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*FORM CONFIRMATION PAGE*/
+.wrapperthree{
+    width: 960px;
+    height: 700px;
+    background-image: url(wonder.woman.jpg);
+    margin:auto;
+}
+.form{
+    width: 100%;
+    height: 800px;
+    background-color:black;
+}
+.confirmation{
+     width: 50%;
+    height: 300px;
+    background-color:blanchedalmond;
+    margin:auto;
+}
+.form p{
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 100px;
+    font-style:italic;
+}
+.form h3{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
